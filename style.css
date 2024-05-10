@@ -1,0 +1,27 @@
+div {
+    display:flex;
+    align-items:center;
+    
+}
+
+
+.moodboard {
+    display:grid;
+    grid-template-columns: repeat(3,200px);
+    margin:10px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    
+}
+
+.moodboard img {
+    width:200px;
+    height:200px;
+}
+
+.container-fluid {
+display:flex;
+flex-direction:column; 
+align-items: center;
+}
